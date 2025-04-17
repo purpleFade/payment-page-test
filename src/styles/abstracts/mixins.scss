@@ -1,0 +1,16 @@
+$desktop: 1000px;
+$tablet: 452px;
+$mobile: 360px;
+
+@mixin media($media) {
+    @if $media==mobile {
+        @media (max-width: $tablet) {
+            @content;
+        }
+    }
+    @if $media==tablet {
+        @media (max-width: $desktop) {
+            @content;
+        }
+    }
+}
