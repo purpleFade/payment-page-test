@@ -31,7 +31,7 @@ const SubmitButton: React.FC<SubmitButtonProps> = ({ onPay }) => {
 				</span>
 
 				<span className={`processing-text ${isProcessing ? "fade-in" : ""}`}>
-					<img src="src/assets/loader.gif" alt="Loader" height="18px" />
+					<span className="loader"></span>
 					Processing payment
 				</span>
 			</div>
