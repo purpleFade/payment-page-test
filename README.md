@@ -22,7 +22,7 @@ A compact checkout interface. The goal of the project is to reproduce the core l
 
 - **TypeScript** for type‑safety
 
-- **React‑Hook‑Form** + **@hookform/resolvers / zod** for ergonomic validation
+- **React‑Hook‑Form**
 
 - **ESLint + Prettier** for clean, consistent code
 
